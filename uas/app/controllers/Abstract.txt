@@ -1,0 +1,34 @@
+<!-- <!-- <?php
+
+
+abstract class Controller {
+    abstract static function index();
+    abstract static function hapus();
+    abstract static function edit();
+    abstract static function detail($id);
+    abstract static function cari();
+
+}
+
+abstract class Models {
+
+    abstract static function getAllVideosProduct();
+    abstract static function ggetAllVideosWeb();
+    abstract static function getAllVideosFigma();
+    abstract static function getAllVideosAdobe();
+    abstract static function getVideoById($id);
+    abstract static function getProfilById();
+    abstract static function updateProfil($data);
+    abstract static function hapusAkun();
+    abstract static function cekUsername($data);
+    abstract static function cekPassword($data);
+    abstract static function registrasiUser($data);
+    abstract static function cekEmail($data);
+    
+}
+
+
+interface CustomFunctions {
+    static function purge();
+    static function restore();
+}  -->
